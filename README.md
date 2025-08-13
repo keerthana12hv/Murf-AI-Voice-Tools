@@ -4,6 +4,11 @@ A FastAPI-based AI voice generation and transcription tool powered by **Murf API
 Includes text-to-speech, voice selection, audio history, and real-time transcription features.
 
 ---
+## 🌐 Live Demo
+The application is now hosted on **Render** and can be accessed here:  
+🔗 [https://murf-ai-voice-tools.onrender.com](https://murf-ai-voice-tools.onrender.com)
+
+---
 
 ## 🚀 Features
 - ✅ Convert text to speech using Murf API  
