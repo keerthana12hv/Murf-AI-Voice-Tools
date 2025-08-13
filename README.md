@@ -22,11 +22,10 @@ The application is now hosted on **Render** and can be accessed here:
 ---
 
 ## 🧰 Technologies Used
-- **Python** (FastAPI)  
-- **JavaScript** (Frontend)  
-- **HTML + CSS**  
-- **Murf API** (Text-to-Speech)  
-- **AssemblyAI API** (Speech-to-Text)  
+- **Backend:** Python (FastAPI)  
+- **Frontend:** HTML, CSS, JavaScript  
+- **APIs:** Murf API (Text-to-Speech), AssemblyAI API (Speech-to-Text)  
+- **Hosting:** Render (Backend API Hosting & Deployment)  
 
 ---
 
