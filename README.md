@@ -26,26 +26,35 @@ Includes text-to-speech, voice selection, audio history, and real-time transcrip
 ---
 
 ## 📂 Project Structure
+```text
 Murf-AI-Voice-Tools/
 │
-├── Screenshots/ # Project screenshots
-│ ├── Main UI.png
-│ ├── Text to Voice.png
-│ ├── Voice Selection.png
-│ └── Voice to Text.png
+├── Screenshots/               # Project screenshots
+│   ├── Main UI.png
+│   ├── Text to Voice.png
+│   ├── Voice Selection.png
+│   └── Voice to Text.png
 │
-├── static/ # Static assets
-│ ├── favicon.png
-│ └── style.css
+├── static/                    # Static assets
+│   ├── favicon.png
+│   └── style.css
 │
-├── templates/ # HTML templates
-│ └── index.html
+├── templates/                 # HTML templates
+│   └── index.html
 │
-├── .env # Environment variables (API keys, etc.)
-├── main.py # Main Python application file
-├── requirements.txt # Python dependencies
-
+├── .env                        # Environment variables (API keys, etc.)
+├── main.py                     # Main Python application file
+├── requirements.txt            # Python dependencies
+```
 ---
+## ⚙️Configuration
+**Update the .env file in the project root with your own API keys from Murf and AssemblyAI:**
+- MURF_API_KEY=your_actual_murf_api_key
+- ASSEMBLYAI_API_KEY=your_actual_assemblyai_api_key
+
+**Important:**
+- Keep the .env file private and never push it to GitHub.
+- If deploying on Render, Heroku, or similar, add these keys in the platform’s environment variables settings instead of a .env file.
 
 ## 🛠️ How to Run
 
@@ -63,15 +72,9 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 4️⃣ Open frontend
-```
-Open templates/index.html in your browser.
-```
+- Open templates/index.html in your browser.
 
+---
 👩‍💻 Author
-J Keerthana
-```
-🔗 GitHub Profile
-```
-## 📜 Copyright
-
-© 2025 keerthana12hv. All rights reserved.
+- J Keerthana
+- 🔗 [GitHub Profile](https://github.com/keerthana12hv)
