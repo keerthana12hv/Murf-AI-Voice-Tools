@@ -47,6 +47,14 @@ Murf-AI-Voice-Tools/
 ├── requirements.txt            # Python dependencies
 ```
 ---
+## 📸 Screenshots
+![Main UI](Screenshots/Main%20UI.png)
+![Text to Voice](Screenshots/Text%20to%20Voice.png)
+![Voice Selection](Screenshots/Voice%20Selection.png)
+![Voice to Text](Screenshots/Voice%20to%20Text.png)
+
+---
+
 ## ⚙️Configuration
 **Update the .env file in the project root with your own API keys from Murf and AssemblyAI:**
 - MURF_API_KEY=your_actual_murf_api_key
