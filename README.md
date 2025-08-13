@@ -33,22 +33,23 @@ The application is now hosted on **Render** and can be accessed here:
 ```text
 Murf-AI-Voice-Tools/
 │
-├── Screenshots/               # Project screenshots
+├── Screenshots/                # Project screenshots
 │   ├── Main UI.png
 │   ├── Text to Voice.png
 │   ├── Voice Selection.png
 │   └── Voice to Text.png
 │
-├── static/                    # Static assets
+├── static/                     # Static assets
 │   ├── favicon.png
 │   └── style.css
 │
-├── templates/                 # HTML templates
+├── templates/                  # HTML templates
 │   └── index.html
 │
 ├── .env                        # Environment variables (API keys, etc.)
 ├── main.py                     # Main Python application file
 ├── requirements.txt            # Python dependencies
+├── procfile                    # how to run the app
 ```
 ---
 ## 📸 Screenshots
